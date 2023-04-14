@@ -9,7 +9,7 @@ from PIL import Image
 
 
 
-# Plant Spy AI Deep Learning Models :
+# Plant Spy AI Deep Learning Models  :
 
 model_categorie = tf.keras.models.load_model(
     'models/model_LeNet1_Categorie_AllData_Softmax')
