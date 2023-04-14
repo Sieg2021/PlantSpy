@@ -2,7 +2,8 @@ name: Deploy Docker Image to Docker Hub
 
 on:
   push:
-    branches: ['master']
+    branches: 
+      - main
 
 jobs:
   build:
